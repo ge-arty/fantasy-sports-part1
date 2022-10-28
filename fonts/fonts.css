@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "TitlingGothicFB Comp";
+  src: url("./TitlingGothicFBComp-Regular.eot");
+  src: url("./TitlingGothicFBComp-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./TitlingGothicFBComp-Regular.woff2") format("woff2"),
+    url("./TitlingGothicFBComp-Regular.woff") format("woff"),
+    url("./TitlingGothicFBComp-Regular.ttf") format("truetype"),
+    url("./TitlingGothicFBComp-Regular.svg#TitlingGothicFBComp-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

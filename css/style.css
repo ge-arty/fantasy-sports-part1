@@ -1,0 +1,144 @@
+body {
+  width: 770px;
+  font-family: "TitlingGothicFB Comp";
+}
+header {
+  height: 265px;
+  background-color: #191515;
+  overflow: auto;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin: 89px auto 0 auto;
+}
+h2 {
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.header-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 67px;
+}
+.header-btns-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
+.header-btns-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 250px;
+}
+.left-btn {
+  color: #e7e2e1;
+  font-size: 11px;
+  letter-spacing: 3px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.right-btn {
+  font-size: 11px;
+  color: #e7e2e1;
+  letter-spacing: 3px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.left-btn:hover {
+  color: #ff2a06;
+}
+.right-btn:hover {
+  color: #ff2a06;
+}
+.left-btn::after {
+  content: "";
+  display: block;
+  width: 186px;
+  height: 5px;
+  background: #e7e2e1;
+  position: absolute;
+  margin-top: 35px;
+}
+.right-btn::after {
+  content: "";
+  display: block;
+  width: 186px;
+  height: 5px;
+  background: #e7e2e1;
+  position: absolute;
+  margin-top: 35px;
+}
+.left-btn:hover::after {
+  background: #ff2a06;
+}
+.right-btn:hover::after {
+  background: #ff2a06;
+}
+main {
+  background-color:burlywood;
+  height: 600px;
+  overflow: auto;
+}
+.box {
+  display: flex;
+  align-items: center;
+  padding-top:5px;
+  gap: 20px;
+  height: 100px;
+  background-color: white;
+  margin-top: 5px;
+}
+.main-img {
+  display: block;
+  padding-left: 20px;
+}
+h3 {
+  color: gray;
+}
+h4 {
+  color:black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+footer {
+  background-color: black;
+  height: 60px;
+  overflow: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 40px;
+  letter-spacing: 2px;
+}
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 110px;
+  letter-spacing: 2px;
+}
